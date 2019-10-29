@@ -1,6 +1,6 @@
-let btnlista=document.getElementById('btnmenu');
-let lista=document.getElementById('lista');
-btnlista.addEventListener('click', function(){
+let btnMenu=document.getElementById('btnmenu');
+let Menu=document.getElementById('menu');
+btnMenu.addEventListener('click', function(){
     'use strict';
-    menu.classList.toggle('mostrar');
-});                         
+    Menu.classList.toggle('mostrar');
+});
