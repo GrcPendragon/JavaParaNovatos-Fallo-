@@ -131,7 +131,7 @@ h1,h2,h3,h4,h5,h6{
     background:#DE423A;
 }
 .mostrar{
-    height: 50px;
+    height: 300px;
 }
 /*--------------Estilos banner-----------*/
 
@@ -193,12 +193,18 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     
 }
+.Temary__img{
+    max-width: 350px;
+    margin: auto;
+}
 .Temary__title{
     font-size: 1.3em;
     padding-top: 10px;
     padding-bottom: 20px;
 }
-
+.Temary .cart__link{
+    text-decoration: none;
+}
 .Temary [class*="icon-"]{
     display: block;
     justify-content: center;
@@ -237,6 +243,33 @@ h1,h2,h3,h4,h5,h6{
     top: 3px;
     right: 5px;
 }
+/*----------Estilo Tabla-------------------*/
+.tabla-container{
+    width: 800px;
+    margin: 150px auto;
+    margin-top: 0px;
+}
+.tabla{
+    background-color: cadetblue;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+tr,td,th{
+    padding: 10px;
+}
+thead{
+    background-color: #DE423A;
+    border-bottom: solid 5px #222;
+    color:white;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+tr:hover td{
+    background-color:gray;
+    color: white;
+}
 /*------------Estilos Responsive-----------*/
 @media screen and (min-width:480px){
     .logo{
@@ -271,6 +304,10 @@ h1,h2,h3,h4,h5,h6{
     .Temary .column{
         border: 5px solid #ddd;
         padding: 5px;
+    }
+    .Temary__img{
+        height: 200px;
+        object-fit: cover;
     }
     .main-footer .container--flex{
         align-items: flex-start;
@@ -341,6 +378,7 @@ h1,h2,h3,h4,h5,h6{
     .Temary__title{
         font-size: 1.4em;
     }
+   
     .main-footer{
         padding-top: 30px;
         padding-bottom: 30px;
@@ -349,5 +387,9 @@ h1,h2,h3,h4,h5,h6{
 @media screen and (min-width:1600px){
     .container{
         width: 1400px;
+    }
+    
+    .Temary__img{
+        height: 300px;
     }
 }
