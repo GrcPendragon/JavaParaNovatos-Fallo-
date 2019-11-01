@@ -47,12 +47,12 @@ h1,h2,h3,h4,h5,h6{
 .logo{
     font-family: 'Pacifico',cursive;
     font-size: 1.8em;
-    color:#DE423A;
+    color:#5F9EA0;
     padding: 10px;
     font-weight: 100;
 }
 .main-header__contactInfo__phone{
-    background:#DE423A;
+    background:#5F9EA0;
     color:white;
     margin: 0 auto;
     padding: 10px;
@@ -125,13 +125,13 @@ h1,h2,h3,h4,h5,h6{
     text-decoration: none;
 }
 .menu__link:hover{
-    background: #DE423A;
+    background: #5F9EA0;
 }
 .menu__link--select{
-    background:#DE423A;
+    background:#5F9EA0;
 }
 .mostrar{
-    height: 300px;
+    height: 120px;
 }
 /*--------------Estilos banner-----------*/
 
@@ -167,7 +167,7 @@ h1,h2,h3,h4,h5,h6{
 }
 /*------------Estilos Principales-----------*/
 .group--color .container{
-    background: #DE423A;
+    background: #5F9EA0;
     color:white;
     padding: 10px;
     text-align: center;
@@ -202,9 +202,6 @@ h1,h2,h3,h4,h5,h6{
     padding-top: 10px;
     padding-bottom: 20px;
 }
-.Temary .cart__link{
-    text-decoration: none;
-}
 .Temary [class*="icon-"]{
     display: block;
     justify-content: center;
@@ -212,7 +209,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 1.3em;
     height: 45px;
     width: 45px;
-    background: #DE423A;
+    background: #5F9EA0;
     border-radius: 50%;
     cursor: pointer;
     align-items: center;
@@ -242,33 +239,6 @@ h1,h2,h3,h4,h5,h6{
     position: relative;
     top: 3px;
     right: 5px;
-}
-/*----------Estilo Tabla-------------------*/
-.tabla-container{
-    width: 800px;
-    margin: 150px auto;
-    margin-top: 0px;
-}
-.tabla{
-    background-color: cadetblue;
-    text-align: center;
-    width: 100%;
-    border-collapse: collapse;
-}
-tr,td,th{
-    padding: 10px;
-}
-thead{
-    background-color: #DE423A;
-    border-bottom: solid 5px #222;
-    color:white;
-}
-tr:nth-child(even){
-    background-color: #ddd;
-}
-tr:hover td{
-    background-color:gray;
-    color: white;
 }
 /*------------Estilos Responsive-----------*/
 @media screen and (min-width:480px){
