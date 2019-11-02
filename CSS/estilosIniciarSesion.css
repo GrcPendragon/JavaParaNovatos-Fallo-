@@ -1,0 +1,246 @@
+/*----------Estilos generales-----------*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*=====BANNER=====*/
+
+#Banner {
+    padding: 0;
+    background-color: #0489B1;
+    padding: 5px;
+}
+
+#nav{
+    top: 30%;
+    margin: -5px;
+    padding: 0;
+    position: absolute;
+    z-index: 0;
+    height: 40%;
+    background: black;
+}
+
+#Banner li{
+    position: relative;
+    top: 17px;
+    text-align: center;
+}
+
+#Banner li a{
+    display: block;
+    background: #04B486;
+    color: white;
+    line-height: 30px;
+}
+
+#logo {
+    position: relative;
+    background: white;
+    border-radius: 100%;
+}
+
+/*=====SECCION=====*/
+
+#slider {
+    margin: 2%;
+    overflow: hidden;
+    border: 5px solid #0489B1;
+    border-radius: 10px;
+}
+
+#slider ul {
+    display: flex;
+    padding: 10% 0 0;
+    width: 400%;
+    
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: linear;
+}
+
+#slider li {
+    width: 100%;
+    list-style: none;
+    
+}
+
+#slider img {
+    border: 2px solid white;
+    width: 100%;
+    height: 80%;
+}
+
+/*=====INICIAR SESION=====*/
+
+#login{
+    margin: 5% 2% 2% 2%;
+    padding: 15% 5% 2%;
+    border: 3px solid #0489B1;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#login img{
+    position: absolute;
+    top: 2%;
+    left: 68%;
+    background: white;
+    width: 7%;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+}
+#login h1{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#login label{
+    margin: 0 0 5px 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+#login input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#login input[type="text"], #login input[type="password"]{
+    padding: 0 5px 0;
+    border: none;
+    border-bottom: 4px solid cyan;
+    border-right: 4px solid GRAY;
+    border-radius: 10px;
+    background: transparent;
+}
+
+#login input[type="text"]:focus, #login input[type="password"]:focus{
+    border-bottom: 4px solid #5F9EA0;
+}
+
+#login input[type="submit"]{
+    background: #04B486;
+    border: 2px solid cyan;
+    border-radius: 25px;
+    color: white
+}
+
+#login a{
+    color: blue;
+}
+/*=====ANIMACIONES=====*/
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+/*=====DISEÑO GENERAL RESPONSIVO=====*/
+
+.contenedor{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.fila{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+ <
+    clear: both;
+    display: table;
+    
+}
+
+[class*="col-"]{
+    float: left;
+    
+    padding: 5px;
+}
+/*=====PANTALLA DE ESCRITORIO GRANDE - LARGE lg=====*/
+@media (min-width: 1200px){
+    .col-lg-12{width: 100%;}
+    .col-lg-11{width: 91.66666667%;}
+    .col-lg-10{width: 83.33333333%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-8 {width: 66.66666667%;}
+    .col-lg-7 {width: 58.33333333%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-5 {width: 41.66666667%;}
+    .col-lg-4 {width: 33.33333333%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-2 {width: 16.66666667%;}
+    .col-lg-1 {width: 8.33333333%;}
+    .col-lg-0 {width: 0;}
+}
+
+/*=====PANTALLA DE ESCRITORIO MEDIANA - MEDIUM md=====*/
+@media (min-width: 992px) and (max-width: 1199px){
+    .col-md-12{width: 100%;}
+    .col-md-11{width: 91.66666667%;}
+    .col-md-10{width: 83.33333333%;}
+    .col-md-9 {width: 75%;}
+    .col-md-8 {width: 66.66666667%;}
+    .col-md-7 {width: 58.33333333%;}
+    .col-md-6 {width: 50%;}
+    .col-md-5 {width: 41.66666667%;}
+    .col-md-4 {width: 33.33333333%;}
+    .col-md-3 {width: 25%;}
+    .col-md-2 {width: 16.66666667%;}
+    .col-md-1 {width: 8.33333333%;}
+    .col-md-0 {width: none;}
+}
+
+/*=====PANTALLA DE ESCRITORIO CHICA - SMALL sm=====*/
+@media (min-width: 768px) and (max-width: 991px){
+    .col-sm-12{width: 100%;}
+    .col-sm-11{width: 91.66666667%;}
+    .col-sm-10{width: 83.33333333%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-8 {width: 66.66666667%;}
+    .col-sm-7 {width: 58.33333333%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-5 {width: 41.66666667%;}
+    .col-sm-4 {width: 33.33333333%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-2 {width: 16.66666667%;}
+    .col-sm-1 {width: 8.33333333%;}
+    .col-sm-0 {width: none;}
+}
+
+/*=====PANTALLA DE ESCRITORIO EXTRA CHICA - EX SMALL xs=====*/
+@media (max-width: 767px){
+    .col-xm-12{width: 100%;}
+    .col-xm-11{width: 91.66666667%;}
+    .col-xm-10{width: 83.33333333%;}
+    .col-xm-9 {width: 75%;}
+    .col-xm-8 {width: 66.66666667%;}
+    .col-xm-7 {width: 58.33333333%;}
+    .col-xm-6 {width: 50%;}
+    .col-xm-5 {width: 41.66666667%;}
+    .col-xm-4 {width: 33.33333333%;}
+    .col-xm-3 {width: 25%;}
+    .col-xm-2 {width: 16.66666667%;}
+    .col-xm-1 {width: 8.33333333%;}
+    .col-xm-0 {width: none;}
+}

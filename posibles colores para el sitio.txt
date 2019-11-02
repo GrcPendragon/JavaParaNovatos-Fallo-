@@ -1,0 +1,6 @@
+Colores posibles para la página web:
+[ #0489B1 ] = azul -> Como color principal
+[ #B40431 ] = rojo -> Opcional para demás partes de la página
+[ #01DFA5] = verde
+[ #0489B1 ]
+[ #0489B1 ]
