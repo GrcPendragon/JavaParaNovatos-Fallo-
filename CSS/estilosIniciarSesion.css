@@ -166,7 +166,7 @@
     margin: auto;
     width: 100%;
     height: auto;
- <
+ 
     clear: both;
     display: table;
     
@@ -177,6 +177,7 @@
     
     padding: 5px;
 }
+/*=====DISEÑO RESPONSIVO=====*/
 /*=====PANTALLA DE ESCRITORIO GRANDE - LARGE lg=====*/
 @media (min-width: 1200px){
     .col-lg-12{width: 100%;}
@@ -191,7 +192,7 @@
     .col-lg-3 {width: 25%;}
     .col-lg-2 {width: 16.66666667%;}
     .col-lg-1 {width: 8.33333333%;}
-    .col-lg-0 {width: 0;}
+    .col-lg-0 {width: 0%;}
 }
 
 /*=====PANTALLA DE ESCRITORIO MEDIANA - MEDIUM md=====*/
@@ -208,7 +209,7 @@
     .col-md-3 {width: 25%;}
     .col-md-2 {width: 16.66666667%;}
     .col-md-1 {width: 8.33333333%;}
-    .col-md-0 {width: none;}
+    .col-md-0 {width: 0%;}
 }
 
 /*=====PANTALLA DE ESCRITORIO CHICA - SMALL sm=====*/
@@ -225,7 +226,7 @@
     .col-sm-3 {width: 25%;}
     .col-sm-2 {width: 16.66666667%;}
     .col-sm-1 {width: 8.33333333%;}
-    .col-sm-0 {width: none;}
+    .col-sm-0 {width: 0%;}
 }
 
 /*=====PANTALLA DE ESCRITORIO EXTRA CHICA - EX SMALL xs=====*/
@@ -242,5 +243,7 @@
     .col-xm-3 {width: 25%;}
     .col-xm-2 {width: 16.66666667%;}
     .col-xm-1 {width: 8.33333333%;}
-    .col-xm-0 {width: none;}
+    .col-xm-0 {width: 0%;}
+    #slider   {border: 0px;}
+    
 }
